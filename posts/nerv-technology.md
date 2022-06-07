@@ -3,22 +3,26 @@ title: 'My Internship at NERv Technology'
 date: '2021-12-23'
 ---
 
-NERv technology is a health-tech startup working on a monitoring system and device which reduces a surgen’s response time to surgical accidents, improves patient recovery, and saves lives.
+![NERv Technology Logo](/images/nerv-technology.png)
 
-At Nerv, I implemented new features and improved on existing implementations using Software Engineering principles learned from my fourth year courses and all the experienced gained throughout my previous internships and projects.
+NERv Technology is a health-tech startup working on a monitoring system and device which reduces a surgeon's response time to surgical accidents, improves patient recovery, and saves lives.
 
-I worked a hybrid work schedule with the Software Engineering Lead on various systems requiring shifting back and forth between different frameworks and languages.
+At NERv Technology, I worked a hybrid work schedule with the Software Engineering Lead on various systems requiring shifting back and forth between different frameworks and languages. I improved backend security, added features to their Android tablet, developed a migration system, and debugged and re-architected old code and design decisions.
 
-I improved backend security, added features to their Android application, developed a migration system, debugged and re-architected old code and design decisions.
-Tech Stack:
+# Here are my achievements:
 
-- ASP.NET Core 3 (C#)
+- Improved backend server security by mitigating DDoS attacks with the Sliding Windows Counter algorithm, implemented as middleware on **ASP.NET Core 3** (**C#**) with **Redis**, resulting in $9000 in yearly savings and a 12% reduced in-memory footprint.
+- Implement a data-export feature using **Kotlin** and **RealmDB** on the clinical trial team's **Android** tablet application, allowing users to export all patient info, device info, and sensor data associated with the tablet into an encrypted zip folder containing .csv and .json and workbook files.
+- Implemented a note-taking feature with **Kotlin** and **RealmDB** on the clinical trial team's **Android** tablet application to let users take notes while calibrating inline devices.
+- Implemented a client-driven database migration system using serverless Azure functions and Queue Storage to let the studies team manually send entries from an old **CosmosDB** to a newer instance.
+- Created unit tests with **xUnit.net**, wrote QA reports, and leveraged design patterns (Factory, Singleton, Observer, Singleton) and data structures (Queues, Hash Tables) for each pull request.
+
+# Tech Stack:
+
+- ASP.NET Core 3 (C#, xUnit.net)
 - Android Studio (Kotlin, Java, XML, RealmDB)
-- Redis)
-- Azure
-
-Bullet-point achievements:
-
-Improved backend server security by mitigating DDoS attacks with the Sliding Windows Counter algorithm implemented with C# as middleware on ASP.NET Core 3, resulting in $9000 in yearly savings and 12% reduced in-memory footprint.
-Used the Strategy design pattern and Kotlin Services to implement a data-export feature on the Clinical Trial team’s Android application, which organizes thousands of sensor measurements into a single zip folder.
-Implemented a client-driven database migration system using serverless functions, allowing the clinical studies team to manually choose which sensor data to migrate over to a newer database from their tablet application.
+- Azure (Redis, CosmosDB, Queue Storage)
+- BitBucket (Git)
+- Jira
+- Team
+- Excel
