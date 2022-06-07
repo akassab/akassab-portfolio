@@ -1,5 +1,5 @@
 ---
-title: 'Degree and List of Courses'
+title: 'My Education'
 date: '2022-04-23'
 ---
 
