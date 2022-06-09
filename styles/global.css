@@ -25,3 +25,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+p a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
