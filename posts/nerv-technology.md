@@ -1,6 +1,7 @@
 ---
 title: 'My Internship at NERv Technology'
 date: '2021-12-23'
+img: nerv-technology.png
 ---
 
 [![NERv Technology Logo](/images/nerv-technology.png)](https://nervtechnology.com/)

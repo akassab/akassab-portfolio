@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import { Avatar, Grid } from '@mui/material';
 
 const Home = ({ allPostsData }) => {
   return (
@@ -21,15 +22,32 @@ const Home = ({ allPostsData }) => {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, img }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
+              <Grid container>
+                <Grid item xs={8} className={utilStyles.listItemTextContainer}>
+                  <Link href={`/posts/${id}`}>
+                    <a>{title}</a>
+                  </Link>
+                </Grid>
+                <Grid item xs={4}>
+                  <Link href={`/posts/${id}`}>
+                    <a>
+                      <Avatar
+                        className={utilStyles.listItemImage}
+                        alt={`${img} Logo`}
+                        src={`/images/${img}`}
+                        sx={{ width: 75, height: 75 }}
+                      />
+                    </a>
+                  </Link>
+                </Grid>
+                <Grid>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </Grid>
+              </Grid>
             </li>
           ))}
         </ul>

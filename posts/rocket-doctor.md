@@ -1,6 +1,7 @@
 ---
 title: 'My Internship at Rocket Doctor'
 date: '2021-04-23'
+img: rocket-doctor.jpeg
 ---
 
 [![Rocket Doctor Logo](/images/rocket-doctor.jpeg)](https://www.rocketdoctor.ca)

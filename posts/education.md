@@ -1,6 +1,7 @@
 ---
 title: 'My Education - Bachelor of Computer Science'
 date: '2022-04-23'
+img: education.png
 ---
 
 [![University of Waterloo Logo](/images/education.png)](https://uwaterloo.ca/future-students/programs/computer-science)
