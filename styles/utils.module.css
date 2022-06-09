@@ -47,6 +47,15 @@
   margin: 0 0 1.25rem;
 }
 
+.listItemTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.listItemImage:hover {
+  opacity: 0.6;
+}
+
 .lightText {
   color: #666;
 }

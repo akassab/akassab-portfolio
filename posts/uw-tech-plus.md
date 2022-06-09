@@ -1,6 +1,7 @@
 ---
 title: 'My UW Tech + Experience'
 date: '2021-08-23'
+img: uw-tech-plus.jpeg
 ---
 
 [![UW Tech Plus Logo](/images/uw-tech-plus.jpeg)](https://www.techplusuw.org/)
