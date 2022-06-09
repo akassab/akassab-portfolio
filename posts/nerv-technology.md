@@ -3,7 +3,7 @@ title: 'My Internship at NERv Technology'
 date: '2021-12-23'
 ---
 
-![NERv Technology Logo](/images/nerv-technology.png)
+[![NERv Technology Logo](/images/nerv-technology.png)](https://nervtechnology.com/)
 
 NERv Technology is a health-tech startup working on a monitoring system and device which reduces a surgeon's response time to surgical accidents, improves patient recovery, and saves lives.
 
@@ -24,5 +24,5 @@ At NERv Technology, I worked a hybrid work schedule with the Software Engineerin
 - Azure (Redis, CosmosDB, Queue Storage)
 - BitBucket (Git)
 - Jira
-- Team
+- Microsoft Teams
 - Excel
