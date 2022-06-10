@@ -76,14 +76,6 @@ const Home = ({ allPostExperienceData, allPostProjectData }) => {
           ))}
         </ul>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Experiences</h2>
-        <ul className={utilStyles.list}>
-          <li className={utilStyles.listItem}>API Wrapper</li>
-          <li className={utilStyles.listItem}>AI Breaker</li>
-          <li className={utilStyles.listItem}>Social Sports</li>
-        </ul>
-      </section>
     </Layout>
   );
 };
