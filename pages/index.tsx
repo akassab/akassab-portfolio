@@ -2,25 +2,77 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import {
-  getSortedPostProjectData,
+  getSortedPostEducationData,
   getSortedPostExperiencesData,
+  getSortedCommunityInvolvementData,
+  getSortedPostProjectData,
 } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 import { Avatar, Grid } from '@mui/material';
 
-const Home = ({ allPostExperienceData, allPostProjectData }) => {
+const Home = ({
+  allPostEducationData,
+  allPostExperienceData,
+  allPostCommunityInvolvementData,
+  allPostProjectData,
+}) => {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          I’m a Computer Science graduate from Cheriton School of Computer
+          Science at the University of Waterloo. I’m a Full Stack Software
+          Engineer, first-year student mentor, and community volunteer. As a
+          lifelong programmer, I’ve always been interested in creating
+          applications. My interests are in web, mobile, and Artificial
+          Intelligence. I also work as a referee, spiritual volunteer and play
+          soccer on Sundays.
         </p>
+        <p>
+          This is my portfolio website - I built it with{' '}
+          <a href="https://nextjs.org/learn">Next.js (React)</a>.
+        </p>
+        <p>
+          Here is a copy of my latest resume. For finer details, check out the
+          links below:
+        </p>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Education</h2>
+        <ul className={utilStyles.list}>
+          {allPostEducationData.map(({ id, date, title, img }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Grid container>
+                <Grid item xs={8} className={utilStyles.listItemTextContainer}>
+                  <Link href={`/posts/${id}`}>
+                    <a>{title}</a>
+                  </Link>
+                </Grid>
+                <Grid item xs={4}>
+                  <Link href={`/posts/${id}`}>
+                    <a>
+                      <Avatar
+                        className={utilStyles.listItemImage}
+                        alt={`${img} Logo`}
+                        src={`/images/${img}`}
+                        sx={{ width: 75, height: 75 }}
+                      />
+                    </a>
+                  </Link>
+                </Grid>
+                <Grid>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </Grid>
+              </Grid>
+            </li>
+          ))}
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Experiences</h2>
@@ -56,6 +108,40 @@ const Home = ({ allPostExperienceData, allPostProjectData }) => {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Community Involvement</h2>
+        <ul className={utilStyles.list}>
+          {allPostCommunityInvolvementData.map(({ id, date, title, img }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Grid container>
+                <Grid item xs={8} className={utilStyles.listItemTextContainer}>
+                  <Link href={`/posts/${id}`}>
+                    <a>{title}</a>
+                  </Link>
+                </Grid>
+                <Grid item xs={4}>
+                  <Link href={`/posts/${id}`}>
+                    <a>
+                      <Avatar
+                        className={utilStyles.listItemImage}
+                        alt={`${img} Logo`}
+                        src={`/images/${img}`}
+                        sx={{ width: 75, height: 75 }}
+                      />
+                    </a>
+                  </Link>
+                </Grid>
+                <Grid>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </Grid>
+              </Grid>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
           {allPostProjectData.map(({ id, date, title, img }) => (
@@ -83,10 +169,14 @@ const Home = ({ allPostExperienceData, allPostProjectData }) => {
 export async function getStaticProps() {
   const allPostExperienceData = getSortedPostExperiencesData();
   const allPostProjectData = getSortedPostProjectData();
+  const allPostEducationData = getSortedPostEducationData();
+  const allPostCommunityInvolvementData = getSortedCommunityInvolvementData();
   return {
     props: {
       allPostExperienceData,
       allPostProjectData,
+      allPostEducationData,
+      allPostCommunityInvolvementData,
     },
   };
 }
