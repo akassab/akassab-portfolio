@@ -10,6 +10,7 @@ import {
 import Link from 'next/link';
 import Date from '../components/date';
 import { Avatar, Grid } from '@mui/material';
+import track from '../lib/track';
 
 const Home = ({
   allPostEducationData,
@@ -17,6 +18,7 @@ const Home = ({
   allPostCommunityInvolvementData,
   allPostProjectData,
 }) => {
+  track('Home');
   return (
     <Layout home>
       <Head>
