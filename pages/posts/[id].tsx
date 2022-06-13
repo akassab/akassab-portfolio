@@ -3,8 +3,10 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import track from '../../lib/track';
 
 const Post = ({ postData }) => {
+  track(postData.title, 'test');
   return (
     <Layout>
       <Head>
