@@ -105,7 +105,7 @@ const Home = ({
                     </a>
                   </Link>
                 </Grid>
-                <Grid>
+                <Grid item>
                   <small className={utilStyles.lightText}>
                     <Date dateString={date} />
                   </small>
@@ -138,7 +138,7 @@ const Home = ({
                     </a>
                   </Link>
                 </Grid>
-                <Grid>
+                <Grid item>
                   <small className={utilStyles.lightText}>
                     <Date dateString={date} />
                   </small>
@@ -152,15 +152,15 @@ const Home = ({
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
-          {allPostProjectData.map(({ id, date, title, img }) => (
+          {allPostProjectData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Grid container>
-                <Grid item xs={8} className={utilStyles.listItemTextContainer}>
+                <Grid item xs={12} className={utilStyles.listItemTextContainer}>
                   <Link href={`/posts/${id}`}>
                     <a>{title}</a>
                   </Link>
                 </Grid>
-                <Grid>
+                <Grid item xs={12}>
                   <small className={utilStyles.lightText}>
                     <Date dateString={date} />
                   </small>
