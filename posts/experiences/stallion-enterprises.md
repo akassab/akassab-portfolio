@@ -6,7 +6,7 @@ img: stallion-enterprises-inc-2.png
 
 [![Affordable Self Storage At Port Colborne Logo](/images/stallion-enterprises-inc-1.jpeg)](https://pcss.stallioneic.com/)
 
-Affordable Port Colborne Self Storage is a customer focused self storage facility in Hamilton.
+Affordable Port Colborne Self Storage is a customer focused self storage facility in Hamilton owned by Stallion Enterprises International Cooperation.
 
 I worked remotely for the business owner for about a year, digitalizing their company and automating business logic. We started by developing a new design for the website and improving SEO; we devised a sketch and implemented a new look with Bootstrap and CSS. I then created a booking/checkout form with Angular 9 and Node.js and synchronized inventory with Google Sheets and MySQL. Customers could fill out the form and use Square API to make a credit card payment. After a completed payment, a storage is selected from the storage facility, and a password would be generated and assigned for the customer. Atrium – CDVI Americas, a web application, provides tools for those features, but we needed the process to be automated. I took it upon myself to create an [**npm library**](https://www.npmjs.com/package/http-atrium-cdvi) to perform API calls like _add user_, _set key code_, and _set access level_ to the web application, as there was no existing API.
 
