@@ -26,21 +26,27 @@ const Home = ({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          I’m a Computer Science graduate from Cheriton School of Computer
-          Science at the University of Waterloo. I’m a Full Stack Software
-          Engineer, first-year student mentor, and community volunteer. As a
-          lifelong programmer, I’ve always been interested in creating
-          applications. My interests are in web, mobile, and Artificial
-          Intelligence. I also work as a referee, spiritual volunteer and play
-          soccer on Sundays.
+          Hi, I'm Ayman. 👋 I’m a <b>Computer Science graduate</b> from Cheriton
+          School of Computer Science at the University of Waterloo. I’m a Full
+          Stack Software Engineer 🚀, first-year student mentor, and community
+          volunteer. As a lifelong programmer, I’ve always been interested in
+          creating applications. My interests are in web, mobile, and Artificial
+          Intelligence. I also work as a referee, spiritual volunteer and adult
+          house league soccer ⚽️.
         </p>
         <p>
-          This is my portfolio website - I built it with{' '}
-          <a href="https://nextjs.org/learn">Next.js (React)</a>.
+          This is my portfolio website - I built it with Next.js (React).
+          <br />
+          <a href="https://github.com/akassab/akassab-portfolio">
+            (See GitHub Repo)
+          </a>
+          .
         </p>
         <p>
-          Here is a copy of my latest resume. For finer details, check out the
-          links below:
+          <a href="/Ayman_Kassab.pdf" download>
+            Here is a copy of my latest resume.
+          </a>{' '}
+          For finer details, check out the links below:
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
