@@ -8,7 +8,7 @@ import track from '../../lib/track';
 const Post = ({ postData }) => {
   track(postData.title);
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{postData.title}</title>
       </Head>
