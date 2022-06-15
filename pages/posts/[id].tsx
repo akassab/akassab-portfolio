@@ -6,7 +6,7 @@ import utilStyles from '../../styles/utils.module.css';
 import track from '../../lib/track';
 
 const Post = ({ postData }) => {
-  track(postData.title, 'test');
+  track(postData.title);
   return (
     <Layout>
       <Head>
