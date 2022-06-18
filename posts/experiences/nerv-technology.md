@@ -6,7 +6,7 @@ img: nerv-technology.png
 
 [![NERv Technology Logo](/images/nerv-technology.png)](https://nervtechnology.com/)
 
-NERv Technology is a health-tech startup working on a monitoring system and device which reduces a surgeon's response time to surgical accidents, improves patient recovery, and saves lives.
+NERv Technology is a health-tech startup creating a monitoring system and device aiming to reduce a surgeon's response time to surgical accidents, improve patient recovery, and save lives.
 
 At NERv Technology, I worked a hybrid work schedule with the Software Engineering Lead on various systems requiring shifting back and forth between different frameworks and languages. I improved backend security, added features to their Android tablet, developed a migration system, and debugged and re-architected old code and design decisions.
 
