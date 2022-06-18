@@ -31,8 +31,8 @@ const Home = ({
           Stack Software Engineer 🚀, first-year student mentor, and community
           volunteer. As a lifelong programmer, I’ve always been interested in
           creating applications. My interests are in web, mobile, and Artificial
-          Intelligence. I also work as a referee, spiritual volunteer and adult
-          house league soccer ⚽️.
+          Intelligence. I also work as a referee, volunteer in a spiritual
+          community, and play as a defensive midfielder in soccer ⚽️.
         </p>
         <p>
           This is my portfolio website - I built it with Next.js (React).
@@ -46,7 +46,7 @@ const Home = ({
           <a href="/Ayman_Kassab.pdf" download>
             Here is a copy of my latest resume.
           </a>{' '}
-          For finer details, check out the links below:
+          For finer details, check out the links below.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
