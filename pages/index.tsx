@@ -26,7 +26,7 @@ const Home = ({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I'm Ayman. 👋 I’m a <b>Computer Science graduate</b> from Cheriton
+          Hi, I'm Ayman. 👋 I’m a Computer Science graduate from the Cheriton
           School of Computer Science at the University of Waterloo. I’m a Full
           Stack Software Engineer 🚀, first-year student mentor, and community
           volunteer. As a lifelong programmer, I’ve always been interested in
