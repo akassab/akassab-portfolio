@@ -26,13 +26,13 @@ const Home = ({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I'm Aydan. 👋 I’m a Computer Science graduate from the Cheriton
+          Hi, I'm Aydan 👋. I’m a Computer Science graduate from the Cheriton
           School of Computer Science at the University of Waterloo. I’m a Full
           Stack Software Engineer 🚀, first-year student mentor, and community
           volunteer. As a lifelong programmer, I’ve always been interested in
           creating applications. My interests are in web, mobile, and Artificial
           Intelligence. I also work as a referee, volunteer in a spiritual
-          community, and play as a defensive midfielder in soccer ⚽️.
+          community, and love football/soccer ⚽️.
         </p>
         <p>
           This is my portfolio website - I built it with Next.js (React).
