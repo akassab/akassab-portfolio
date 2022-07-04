@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Ayman Kassab';
-export const siteTitle = "Ayman's Portfolio";
+const name = 'Aydan Kassab';
+export const siteTitle = "Aydan's Portfolio";
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Ayman's Portfolio - Experiences and Projects"
+          content="Aydan's Portfolio - Experiences and Projects"
         />
         <meta
           property="og:image"
