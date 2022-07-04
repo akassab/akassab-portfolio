@@ -12,7 +12,7 @@ I worked remotely for the business owner for about a year, digitalizing their co
 
 In addition, I created automated scripts (cron jobs) to recurrently charge customers using their provided credit cards, send out warnings and potentially termination emails when credit cards would fail, and control Google AdWords budget depending on storage unit availability.
 
-Towards the end of my contract, I wanted to give the owner the ability to control backend logic in urgent situations without relying on a developer to re-configure the backend, so I created an admin portal to turn on/off the checkout form recurring payments, and emails.
+Towards the end of my contract, I wanted to give the owner the ability to control backend logic in urgent situations without relying on a developer to re-configure the backend, so I created an admin portal to turn on/off the checkout form recurring payments and emails.
 
 # Here are my achievements:
 
@@ -26,7 +26,9 @@ Towards the end of my contract, I wanted to give the owner the ability to contro
 
 # Tech Stack:
 
+- Angular 10 (TypeScript, JavaScript, JQuery, BootStrap 4, HTML, CSS)
 - Node.js (Express.js, JavaScript)
-- Angular 10 (TypeScript, JavaScript, CSS, BootStrap 4, JQuery)
 - GoDaddy (MySQL, Terminal, SSL)
 - Google Sheets (formulas/functions)
+- GitHub (git)
+- Microsoft Teams

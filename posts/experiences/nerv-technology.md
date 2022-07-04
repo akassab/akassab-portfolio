@@ -8,7 +8,7 @@ img: nerv-technology.png
 
 NERv Technology is a health-tech startup creating a monitoring system and device aiming to reduce a surgeon's response time to surgical accidents, improve patient recovery, and save lives.
 
-At NERv Technology, I worked a hybrid work schedule with the Software Engineering Lead on various systems requiring shifting back and forth between different frameworks and languages. I improved backend security, added features to their Android tablet, developed a migration system, and debugged and re-architected old code and design decisions.
+At NERv Technology, I worked a hybrid work schedule with the Software Engineering Lead on various systems requiring shifting back and forth between different frameworks and languages. I improved backend security, added features to their Android tablet, developed a migration system, and debugged and re-architected old code/design decisions.
 
 # Here are my achievements:
 
@@ -23,7 +23,7 @@ At NERv Technology, I worked a hybrid work schedule with the Software Engineerin
 - ASP.NET Core 3 (C#, xUnit.net)
 - Android Studio (Kotlin, Java, XML, RealmDB)
 - Azure (Redis, CosmosDB, Queue Storage)
-- BitBucket (Git)
+- BitBucket (git)
 - Jira
 - Microsoft Teams
 - Excel

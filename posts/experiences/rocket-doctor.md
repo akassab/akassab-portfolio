@@ -20,10 +20,13 @@ At Rocket Doctor, I worked a fully remote work schedule with a team of four seni
 - Increased cross-browser compatibility and improved mobile UX by designing responsive components with **Material UI** and **CSS**.
 - Created design documents and end-to-end tests using **Cypress**, **Mocha**, and **Chai**.
 
-Tech Stack:
+# Tech Stack:
 
-- Next.js, React.js (JavaScript, TypeScript, HTML, CSS)
+- Next.js, React.js (TypeScript, JavaScript, Material UI, HTML, CSS)
 - Node.js (Express.js, TypeScript)
 - PostgreSQL (SQL, TypeORM)
 - Ruby on Rails (Ruby)
 - Cypress, Mocha, Chai
+- GitHub (git)
+- Jira
+- Slack
